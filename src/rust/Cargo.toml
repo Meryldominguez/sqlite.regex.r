@@ -1,0 +1,15 @@
+[package]
+name = 'testextendr'
+publish = false
+version = '0.1.0'
+edition = '2021'
+
+
+[lib]
+crate-type = [ 'staticlib' ]
+name = 'testextendr'
+
+[dependencies]
+extendr-api = '*'
+sqlite-loadable = "0.0.5"
+regex = "1"
